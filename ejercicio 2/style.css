@@ -1,0 +1,92 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f5f7fa;
+  line-height: 1.6;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #f7931e;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #d97b10;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #eaf4ff;
+}
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  max-width: 650px;
+  margin: 0 auto 1.5rem auto;
+}
+
+/* Servicios */
+.servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.servicio {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.servicio h3 {
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+/* Talleres */
+.talleres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background: #002244;
+  color: #fff;
+  padding: 3rem 2rem;
+}
+.talleres .texto {
+  flex: 1;
+}
+.talleres .etiqueta {
+  display: inline-block;
+  background: #f7931e;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.talleres h2 {
+  margin: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.talleres p {
+  margin-bottom: 1.5rem;
+}
+.talleres .imagen img {
+  max-width: 350px;
+  border-radius: 12px;
+}
+
